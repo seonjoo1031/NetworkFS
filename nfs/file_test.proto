@@ -1,0 +1,5 @@
+message File {
+	required string path = 1;
+	required int32 id = 2;
+	
+}

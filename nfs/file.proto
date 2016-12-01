@@ -1,0 +1,24 @@
+message File {
+	optional int32 oper = 1;
+	optional string path = 2;
+	optional string stbuf = 3;
+	optional int32 mask = 4;
+	optional int32 mode = 5;
+	optional int64 rdev = 6;
+	optional string from = 7;
+	optional string to = 8;
+	optional int32 uid = 9;
+	optional int32 gid = 10;
+	optional int32 size = 11;
+	optional int32 flag = 12;
+	optional int32 offset = 13;
+	optional int32 statvfs = 14;
+
+	repeated bytes d_name = 15;
+	
+	optional int32 msg_size = 16;
+
+	optional bytes buf = 17;
+	optional int64 fh = 18;
+	optional int32 error = 19;
+}

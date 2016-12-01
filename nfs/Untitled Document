@@ -1,0 +1,15 @@
+	message Stbuf{
+		required int64 st_dev;
+		required int32 st_ino;
+		required uint32 st_mode;
+		required int32 st_nlink;
+		required int32 st_uid;
+		required int32 st_gid;
+		required int64 st_rdev;
+		required int64 st_size;
+		required int32 st_blksize;
+		required int64 st_blocks;
+		required string st_ctime;
+		required string st_atime;
+		required string st_mtime;
+	}
